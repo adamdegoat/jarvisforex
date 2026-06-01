@@ -45,7 +45,7 @@ body{margin:0;background:#070b16;color:var(--ink);font-family:'Inter',system-ui,
 </style></head>
 <body><div class="wrap">
   <div class="top"><svg width="34" height="34" viewBox="0 0 28 28" style="border-radius:7px;box-shadow:0 0 0 1px rgba(148,163,184,.18)"><defs><linearGradient id="cg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b4079"/><stop offset="1" stop-color="#0e1a35"/></linearGradient></defs><rect width="28" height="28" rx="7" fill="url(#cg)"/><path d="M14 5.4 Q14 14 22.6 14 Q14 14 14 22.6 Q14 14 5.4 14 Q14 14 14 5.4 Z" fill="#fff"/></svg><span class="wm">Jarvis Forex</span><span class="tsub">· self-learning forex basket</span>
-    <span class="live"><span class="dot"></span>LIVE · 15:16 SGT</span></div>
+    <span class="live"><span class="dot"></span>LIVE · 15:31 SGT</span></div>
   <a class="back" href="https://adamdegoat.github.io/jarvis/">← back to Jarvis</a>
   <div class="ctx">4 pairs · EUR/USD · GBP/USD · USD/JPY · AUD/USD · paper $10k · scans ~5 min · 5m</div>
   <div class="grid"><div class="stat"><div class="stat-l">EQUITY</div><div class="stat-v" style="color:#e8eef7">$10,000.06 <span class=sub>of $10,000</span></div></div><div class="stat"><div class="stat-l">RETURN</div><div class="stat-v" style="color:#e8eef7">+0.00% <span class=sub>$+0</span></div></div><div class="stat"><div class="stat-l">TRADES</div><div class="stat-v" style="color:#e8eef7">1 <span class=sub>100% win</span></div></div><div class="stat"><div class="stat-l">NET P&L</div><div class="stat-v" style="color:#22c55e">$+0.06</div></div></div>
@@ -59,10 +59,10 @@ body{margin:0;background:#070b16;color:var(--ink);font-family:'Inter',system-ui,
   <div class="card"><div class="card-h">◇ L5: STRATEGY FAMILY INTELLIGENCE</div><div class="empty">Family insights are computed during the reflection cycle. Run <code>python3 ~/.jarvisforex/family_insights.py</code> to seed.</div></div>
   <div class="card"><div class="card-h">◇ SHADOW BOOK <span class=sub>(graded hypotheses — no money)</span></div><div class="grid stats"><div class="stat"><div class="stat-l">TESTING NOW</div><div class="stat-v" style="color:#3B82F6">0</div></div><div class="stat"><div class="stat-l">GRADED</div><div class="stat-v" style="color:#e8eef7">9</div></div><div class="stat"><div class="stat-l">WOULD-WIN</div><div class="stat-v" style="color:#f43f5e">44%</div></div></div><div class="summary">Every tick the brain also logs its best long idea it <b>didn't</b> take, then grades whether it would have hit target or stop. Quiet sessions still produce graded lessons — these feed the learning weights without risking the $10k.</div></div>
   <div class="foot">Jarvis Forex — autonomous paper forex desk (4-pair basket). Self-improving brain · honest spread model · not financial advice.<br>
-    <a href="https://adamdegoat.github.io/jarvis/">adamdegoat.github.io/jarvis</a> · updated 2026-06-01 15:16 SGT</div>
+    <a href="https://adamdegoat.github.io/jarvis/">adamdegoat.github.io/jarvis</a> · updated 2026-06-01 15:31 SGT</div>
 </div>
 <script>
-const D={"labels": ["06-01 13:59", "06-01 14:01", "06-01 14:06", "06-01 14:11", "06-01 14:16", "06-01 14:21", "06-01 14:26", "06-01 14:31", "06-01 14:36", "06-01 14:41", "06-01 14:46", "06-01 14:51", "06-01 14:56", "06-01 15:02", "06-01 15:07", "06-01 15:12"], "data": [10000, 10000, 10000, 9999.86, 9999.96, 10000.06, 10000.06, 10000.06, 10000.06, 10000.06, 10000.06, 10000.06, 10000.06, 10000.06, 10000.06, 10000.06]};
+const D={"labels": ["06-01 13:59", "06-01 14:01", "06-01 14:06", "06-01 14:11", "06-01 14:16", "06-01 14:21", "06-01 14:26", "06-01 14:31", "06-01 14:36", "06-01 14:41", "06-01 14:46", "06-01 14:51", "06-01 14:56", "06-01 15:02", "06-01 15:07", "06-01 15:12", "06-01 15:17", "06-01 15:22", "06-01 15:27"], "data": [10000, 10000, 10000, 9999.86, 9999.96, 10000.06, 10000.06, 10000.06, 10000.06, 10000.06, 10000.06, 10000.06, 10000.06, 10000.06, 10000.06, 10000.06, 10000.06, 10000.06, 10000.06]};
 Chart.defaults.color='#8a99b5';Chart.defaults.font.family="'IBM Plex Mono',monospace";
 new Chart(document.getElementById('eq'),{type:'line',
  data:{labels:D.labels,datasets:[{label:'Equity',data:D.data,borderColor:'#3B82F6',backgroundColor:'rgba(59,130,246,.08)',borderWidth:2,fill:true,tension:.25,pointRadius:0,pointHoverRadius:4}]},
